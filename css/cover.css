@@ -16,7 +16,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid grey;
 }
 
 #git-img {
@@ -24,6 +24,8 @@ a:hover {
                   drop-shadow(-1px -1px 0 white);
   filter: drop-shadow(1px 1px 0 gray);
           drop-shadow(-1px -1px 0 gray);
+
+
 
  }
 
