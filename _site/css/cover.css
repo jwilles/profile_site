@@ -13,11 +13,14 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #333; 
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
-  border: 1px solid grey;
+ /* border: 1px solid black;*/
+  box-shadow: 0 0 1px black;
 }
+
+
 
 #git-img {
   -webkit-filter: drop-shadow(0 0 1px white);
@@ -90,6 +93,10 @@ body {
   margin-bottom: 10px;
 }
 
+.masthead-brand > a:hover {
+  color: #333;
+}
+
 .masthead-nav > li {
   display: inline-block;
 }
@@ -112,6 +119,7 @@ body {
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
+
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
