@@ -57,9 +57,9 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .projects-wrapper {
- background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.5)),  url(../images/full_1.jpg) no-repeat center center fixed;*/
- box-shadow: 0 0 5px white;
- margin-top: 10%;
+  background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.5)),  url(../images/full_1.jpg) no-repeat center center fixed;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .site-wrapper {
@@ -140,6 +140,10 @@ body {
 /*
  * Cover
  */
+
+.project {
+  box-shadow: 0 0 5px white;
+}
 
 .project:hover {
   opacity: .5;
